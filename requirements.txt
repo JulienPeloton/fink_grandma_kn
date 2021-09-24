@@ -1,0 +1,8 @@
+numpy
+pandas
+astropy
+healpy
+fink-science
+fink-filters
+seaborn
+scipy

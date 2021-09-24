@@ -7,4 +7,10 @@ This repository hosts the [ZTF](https://www.ztf.caltech.edu/) alert data process
 - [KN-Mangrove filter](KN-Mangrove_filter.ipynb): Candidates from the filter using a crossmatch with Mangrove galaxies
 - [KN-rate-based filter](KN-rate-based_filter.ipynb): Candidates from the rate-based filter
 
-Alert data are located under [data](data/). Note that during this period, ZTF sent XX alerts, and Fink processed YY alerts that pass the quality cuts.
+Alert data are located under [data](data/). Note that during this period, Fink received 29,161,507 alerts from ZTF, and processed 10,273,271 alerts that pass the quality cuts.
+
+The notebooks have dependencies in several external libraries. To install them:
+
+```
+pip install -r requirements.txt
+```
